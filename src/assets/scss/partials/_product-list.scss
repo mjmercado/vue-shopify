@@ -1,0 +1,34 @@
+
+
+.products {
+    position: relative;
+    width: 100%;
+
+    @include grid;
+
+    .product {
+        cursor: pointer;
+
+        &.sold-out {
+            pointer-events: none;
+            opacity: .5;
+        }
+
+        .product-image {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    
+        .product-title {
+
+        }
+        .product-description {
+
+        }
+        .product-price {
+
+        }
+    }
+}
