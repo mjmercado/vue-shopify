@@ -4,7 +4,7 @@ export default {
   collectionHandle: null,
   localStorageKey: "vue-shopify",
   showUnavailableProducts: true,
-  productListColumns: 3,
+  productListColumns: 4,
   productListColumnsMobile: 1,
   loadingColor: "#41b883",
   googleAnalyticsId: null
